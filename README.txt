@@ -13,3 +13,7 @@ S + Space: Slam Down
 D + Space: Force Wall
 
 The objective of the game is to hit the ball past the opponent's paddle.
+
+Watch an explanation of the project below:
+
+https://www.youtube.com/watch?v=XXP0OEWNG7w&ab_channel=AndrewErdman
