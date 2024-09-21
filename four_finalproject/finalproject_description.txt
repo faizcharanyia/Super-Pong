@@ -1,0 +1,33 @@
+The objective of the project, Super Pong, is to hit the ball past the opponent's paddle. The game consists of two modes: VS and Endless. VS is a two-player mode against the CPU with wins dependent on the number of wins of played games while Endless is a mode where points are not tracked, but the winner is finalized through one gameplay. 
+
+The key controls are as listed:
+W: Jump
+W + W: Double-Jump
+A: Left
+D: RIght
+W + Space: Jump Smash
+A + Space: Dash Back
+S + Space: Slam Down
+D + Space: Force Wall
+
+The sound library is used to play music and other sound effects throughout the game, which can be muted using a button. The classes include, but are not limited to Animation, Ball, Button, CPU, CPU Logic, Label, and Paddle.
+
+Andrew Erdman: gameplay, audio, animations, mute button, game modes, keyboard interactivity
+
+Gameplay and game modes made up all of the game functionality (including ball and paddle movement and animation in addition to game modes). Animations addressed animation hierarchy via paddle special moves via keyboard input from the user. Sound included both music and sound effects (e.g. ball contact and game over).
+
+
+
+Faiz Charanyia: Start menu, pause menu, end menu, multiple GUI systems, data input/output, debugging
+
+Start, pause, and end menus served to make the game user-friendly allowing for interaction via mouse and keyboard input. Data input and output helped with leaderboard tracking of scores via scores.txt. Debugging was also required to get data output to function properly.
+
+
+
+Sophie Sadetaporn: In-game scoreboard, debugging
+
+The in-game scoreboard tracks points in the VS game mode (but not Endless mode). Debugging was also required to get the audio working properly.
+
+
+
+An unexpected challenge that we ran into was a group member (Sophie) struggling to implement data input and output. It was much less challenging to output data into the console rather than the game, and she could not find a way to output it into the game. Because of that, instead, Faiz figured out how to handle data output into the game.
